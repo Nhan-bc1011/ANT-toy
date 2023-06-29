@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles/index.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </head>
+    <body>
+         <!--Navication-->
+         <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Index.html"><img src="./assets/ATN.png" width="30px"></img></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Index.html">Home</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="create.html">New</a>
+            </li>
+          </ul>
+      <!--end nav-->
+
+      <!--form-->
+    <form class="row container">
+        <h1 class="mb-3">Create a new product</h1>
+        <div class="col-12 mb-3">
+            <label for="product_name" class="form-label"><b>Product Name</b></label>
+            <input type="text" class="form-control" id="product_name" placeholder="Input product name">
+        </div> 
+        <div class="col-12 mb-3">
+            <label for="price" class="form-label"><b>Price</b></label>
+            <input type="number" class="form-control" id="price" placeholder="Input product price">
+        </div>
+        <div class="col-12 mb-3">
+            <label for="sold" class="form-label"><b>Sold</b></label>
+            <input type="number" class="form-control" id="sold" placeholder="Input product sold amount">
+        </div>
+        <div class="col-12 mb-3">
+            <label for="img" class="form-label"><b>Image</b></label>
+            <input type="file" class="form-control" id="img">
+        </div>
+
+      <button class="btn btn-info mt-3 w-auto mx-auto">Create</button>
+    </form>
+      <!--end form-->
+    </body>
+</html>
